@@ -5,7 +5,7 @@ The purpose of this assignment was to create a portfolio via responsive htmls th
 Links
 
 Portfolio: https://cvgo2000.github.io/HW02-Reactive-Portfolio/
-GitHub: github.com/cvgo2000/HW02-Reactive-Portfolio
+GitHub: https://github.com/cvgo2000/HW02-Reactive-Portfolio
 
 
 Sources
