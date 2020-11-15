@@ -2,141 +2,130 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Christian's Bio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon image for site -->
+    <link rel='icon' href='/assets/portfolio.ico' type='image/x-icon'/ >
+    <!-- import bootstrap CDNs -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- link to local css file -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Portfolio</title>
   </head>
-
   <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="./index.html">About Me</a>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-clear fixed-top">
+      <a class="navbar-brand">
+       Christian Go
+      </a>
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html"
-              >Portfolio <span class="sr-only">Portfolio</span></a
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >About<span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="./contact.html"
-              >Contact<span class="sr-only">Contact</span></a
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./assets/Resume.pdf"
+              >Resume<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.linkedin.com/in/christian-go-6344251b6/"
+              >LinkedIn<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://github.com/cvgo2000"
+              >GitHub<span class="sr-only">(current)</span></a
             >
           </li>
         </ul>
       </div>
     </nav>
-
-    <main class="row justify-content-center">
-     
     <div class="row">
-      <!-- spacer column for card -->
       <div class="col-md-1"></div>
-      <!-- card body -->
+    <!-- Card containing my Portfolio info -->
       <div class="col-lg-10">
         <div class="card">
-          <div class="card-header"><h3>Portfolio - Coming Soon!</h3></div>
+          <div class="card-header"><h3>Portfolio</h3></div>
           <div class="card-body">
             <div class="row">
-            <div class="col-lg-4">
-            <!-- Placeholder images for future projects --> 
-            <img
-              src="https://picsum.photos/350"
-              class="img-fluid rounded float-left mb-4 small-image"  
-              alt="Placeholder"
-              />
-            </a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#">  
-            <img
-              src="https://picsum.photos/350"
-              class="img-fluid rounded float-left mb-4 small-image"  
-              alt="Placeholder"
-              />
-            </a>
-          </div>
-          <div class="col-lg-4">
-            <a href="#">  
-            <img
-              src="https://picsum.photos/350"
-              class="img-fluid rounded float-left mb-4 small-image"  
-              alt="Placeholder"
-              />
-            </a>
-          </div>
+              <div class="col-lg-12">
+                <!-- link images to portfolio projects (Placeholders) -->
+                <a href="https://github.com/enevarez-ops/projectOne">
+                  <img
+                    src="./assets/tasteTheMusic1.gif"
+                    class="img-fluid rounded portfolioImage"
+                    alt="Project One"
+                  />
+                </a>
+              </div>
             </div>
             <div class="row">
-              <div class="col-lg-4">
-              <a href="#">  
-              <img
-                src="https://picsum.photos/350"
-                class="img-fluid rounded float-left mb-4 small-image"  
-                alt="Placeholder"
-                />
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a href="#">  
-              <img
-                src="https://picsum.photos/350"
-                class="img-fluid rounded float-left mb-4 small-image"  
-                alt="Placeholder"
-                />
-              </a>
-            </div>
-            <div class="col-lg-4">
-              <a href="#">  
-              <img
-                src="https://picsum.photos/350"
-                class="img-fluid rounded float-left mb-4 small-image"  
-                alt="Placeholder"
-                />
-              </a>
-            </div>
+              <div class="col-lg-12">
+                <!-- link images to portfolio projects (Placeholders) -->
+                <a href="https://github.com/cvgo2000/HW06-Weather-Dashboard">
+                  <img
+                    src="./assets/Working screenshot.png"
+                    class="img-fluid rounded portfolioImage"
+                    alt="Weather Dashboard"
+                  />
+                </a>
               </div>
-          </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <!-- link images to portfolio projects (Placeholders) -->
+                <a href="https://github.com/cvgo2000/HW05-Day-Planner">
+                  <img
+                    src="./assets/Day-planner-screenshot.png"
+                    class="img-fluid rounded portfolioImage"
+                    alt="Day Planner"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-    </main>
-    <!-- Bootstrap JS code -->
+    <!-- import bootstrap JavaScript  -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
   </body>
